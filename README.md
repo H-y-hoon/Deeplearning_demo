@@ -71,16 +71,6 @@ pip install torch torchvision torchaudio \
 pip install -r requirements.txt
 ```
 
-### GPU Assignment
-
-Each script is pinned to a specific GPU by default. Edit `CUDA_VISIBLE_DEVICES` at the top of each script if needed.
-
-| Script | Default GPU |
-|---|---|
-| `gdino_detect.py` | `0` |
-| `qwen_vlchat.py` | `2` |
-| `sam_segment.py` | `3` |
-
 ---
 
 ## 4. Scripts & Usage
