@@ -1,0 +1,8 @@
+torch>=2.9.1
+torchvision>=0.24.1
+transformers>=5.5.4
+huggingface_hub>=1.11.0
+accelerate>=1.13.0
+pillow>=12.1.1
+tqdm>=4.67.3
+numpy>=2.4.4

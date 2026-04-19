@@ -1,0 +1,33 @@
+# Output results (keep folder structure, ignore contents)
+gdino_outputs/*
+!gdino_outputs/.gitkeep
+
+grounding_dino_outputs/*
+!grounding_dino_outputs/.gitkeep
+
+qwen_outputs/*
+!qwen_outputs/.gitkeep
+
+sam3_outputs/*
+!sam3_outputs/.gitkeep
+
+# Exclude large/private input images (only test1.jpg is tracked)
+img/*
+!img/test1.jpg
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Environments
+.env
+*.egg-info/
+dist/
+build/
+
+# Editor
+.vscode/
+.idea/
+*.swp
